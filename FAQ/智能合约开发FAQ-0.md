@@ -2,7 +2,7 @@
 
 ### 发布的信息渠道太多，从哪一个网址进入能够获悉本次课的全部信息？
 
-请务必收藏本网址：<https://github.com/Guigulive/> 
+请务必收藏本网址：<https://github.com/Guigulive/Wiki> 
 
 
 
