@@ -6,6 +6,7 @@ delete employees[index];
 employees[index] = employees[employees.length - 1];
 ```
 不进行delete操作也没问题。但注意，对于employees数组中最后一位需要通过delete方式删除。
+
 参考：
 http://solidity.readthedocs.io/en/develop/types.html
 “It is important to note that delete a really behaves like an assignment to a, i.e. it stores a new object in a.”
@@ -15,6 +16,7 @@ http://solidity.readthedocs.io/en/develop/types.html
 assert用于检查程序运行条件是否满足（例如数组访问是否越界），require用于检查用户输入或外部调用返回值。
 一个重要区别是：触发assert()会消耗掉所有的gas，而触发require()会把剩余的gas返还。
 异常一般会由子调用向上传递。但是send和底层调用call、delegatecall、callcode除外，它们只会返回false（注意：如果被调用账户不存在，call、delegatecall和callcode返回true）。
+
 其它区别请参考：
 https://ethereum.stackexchange.com/questions/15166/difference-between-require-and-assert-and-the-difference-between-revert-and-thro
 https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e
