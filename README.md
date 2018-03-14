@@ -16,3 +16,6 @@
 - [2018.3.13](daily-review/posts/3/2018.3.13.md)
 - [2018.3.12](daily-review/posts/3/2018.3.12.md)
 - [2018.3.11](daily-review/posts/3/2018.3.11.md)
+
+## 课程补充学习笔记
+- [Lesson 1](https://github.com/Guigulive/Wiki/wiki/Lesson-1-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
