@@ -16,6 +16,10 @@
 ## 课程补充学习笔记
 - [Lesson 1](https://github.com/Guigulive/Wiki/wiki/Lesson-1-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 
+## 课程知识拓展
+
+- [Ethereum的Merkle拓展](https://github.com/Guigulive/Wiki/wiki/Ethereum%E7%9A%84Merkle%E6%8B%93%E5%B1%95)
+
 ## [每日优质内容复盘](daily-review/README.md)
 - [2018.3.15](daily-review/posts/3/2018.3.15.md)
 - [2018.3.14](daily-review/posts/3/2018.3.14.md)
