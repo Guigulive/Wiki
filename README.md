@@ -21,6 +21,7 @@
 - [Ethereum的Merkle拓展](https://github.com/Guigulive/Wiki/wiki/Ethereum%E7%9A%84Merkle%E6%8B%93%E5%B1%95)
 
 ## [每日优质内容复盘](daily-review/README.md)
+- [2018.3.16](daily-review/posts/3/2018.3.16.md)
 - [2018.3.15](daily-review/posts/3/2018.3.15.md)
 - [2018.3.14](daily-review/posts/3/2018.3.14.md)
 - [2018.3.13](daily-review/posts/3/2018.3.13.md)
