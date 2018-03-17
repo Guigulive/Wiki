@@ -15,6 +15,7 @@
 
 ## 课程补充学习笔记
 - [Lesson 1](https://github.com/Guigulive/Wiki/wiki/Lesson-1-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
+- [Lesson 2](https://github.com/Guigulive/Wiki/wiki/Lesson-2-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 
 ## 课程知识拓展
 
