@@ -31,7 +31,7 @@ https://ethereum.stackexchange.com/questions/7713/how-does-mapping-work/17410#17
 * 区块链编程语言Solidity语言函数可见性深入详解 
 https://www.jianshu.com/p/c3e3ccb466ec
 
-【注】
+---
 上述问题整理自：
 * 以太坊智能合约全栈课程第二期第三课课程内容 
 * 以太坊智能合约全栈课程第二期第三课补充学习笔记 
