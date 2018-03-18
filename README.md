@@ -29,3 +29,7 @@
 - [2018.3.13](daily-review/posts/3/2018.3.13.md)
 - [2018.3.12](daily-review/posts/3/2018.3.12.md)
 - [2018.3.11](daily-review/posts/3/2018.3.11.md)
+
+## 分享会复盘
+
+- [对Dfinity共识机制的简单介绍](weekly-seminar/2018.03.17-dfinity/2018.03.17-dfinity-consensus.md) - 题华龙
