@@ -13,15 +13,18 @@
 * 测试合约建议大家采用java script 因为写起来交互相对简单，Solidity本身的测试需要绕开各种问题，助教和老师讨论后，感觉并不是特别必要专门要求为了绕过这些东西而绕过，目前推荐大家使用javascript书写测试。 
 【参考】 
 * Windows环境下跑通Truffle开发环境 
+
 http://mp.weixin.qq.com/s/lK9O0gEbDTJgcpyM3x2e9g 
 
 ### 为何参考了如上问题以及视频中的步骤，还是无法跑通整个流程？
 * payroll.sol程序导入truffle工程时需要注意： 
 1. 修改getWeb3.js的下面这句的端口号，使得该端口号和truffle.js中保持一致。 
-```var provider = new Web3.providers.HttpProvider('http://127.0.0.1:8545') 
+```
+var provider = new Web3.providers.HttpProvider('http://127.0.0.1:8545') 
 ```
 2. truffle.js需要修改为如下内容：（注意端口号） 
-```module.exports = {		
+```
+module.exports = {		
   // See <http://truffleframework.com/docs/advanced/configuration>		
   // to customize your Truffle configuration!		
   networks: {		
@@ -36,17 +39,20 @@ http://mp.weixin.qq.com/s/lK9O0gEbDTJgcpyM3x2e9g
 
 ### 使用JS测试时如何在浏览器中输出相关信息以方便调试？
 * 可以使用console.log命令。比如要输入account变量的内容的话： 
-```console.log("employeeId: ",account);
+```
+console.log("employeeId: ",account);
 ```
 
 ### truffle console中如何像remix界面里那样通过addFund来加钱？ 
 * 可以在调函数的时候在花括号里设置参数，比如：  
-```payroll.addFund({value: xxxx})
+```
+payroll.addFund({value: xxxx})
 ```
 
 ### truffle console中如何像指定执行该命令的帐户？ 
 * 同上一问，也可以在调函数的时候在花括号里设置参数，比如：  
-```payroll.addFund({from: xxxx})
+```
+payroll.addFund({from: xxxx})
 ```
 
 ### 用testrpc布署完合约之后，我如何才能知道合约的owner？ 
@@ -54,14 +60,17 @@ http://mp.weixin.qq.com/s/lK9O0gEbDTJgcpyM3x2e9g
 
 ### 如何自定义gasprice和gaslimit？ 
 * 可以执行如下命令来修改： 
+```
 testrpc -g 30000000000 -l 200000 
+```
 * gasLimit的默认值相对较小，详细参数如下： 
 > --gasPrice/-g <gas price> (default 20000000000)
 > --gasLimit/-l <gas limit> (default 90000)
 
 ### 通过web3来调用solidity里面的方法都是需要添加回调函数吗？ 
 * 是的，需要用JS里的promise来获取实际的结果，比如： 
-```MetaCoin.deployed().then(contract => {metacoin = contract})
+```
+MetaCoin.deployed().then(contract => {metacoin = contract})
 ```
 
 ---
