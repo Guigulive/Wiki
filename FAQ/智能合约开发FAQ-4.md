@@ -18,11 +18,8 @@ http://mp.weixin.qq.com/s/lK9O0gEbDTJgcpyM3x2e9g
 
 ### 为何参考了如上问题以及视频中的步骤，还是无法跑通整个流程？
 * payroll.sol程序导入truffle工程时需要注意： 
-1. 修改getWeb3.js的下面这句的端口号，使得该端口号和truffle.js中保持一致。 
-```
-var provider = new Web3.providers.HttpProvider('http://127.0.0.1:8545') 
-```
-2. truffle.js需要修改为如下内容：（注意端口号） 
+1. 注意如果使用视频中的编译器版本时，public view这样的语法不被支持，编译时会报错。解决方法可以是把view字样删除，或者改成constant。 
+2. truffle.js需要修改为如下内容：（注意端口号和网络名development，否则执行truffle test时会报错No network specified） 
 ```
 module.exports = {		
   // See <http://truffleframework.com/docs/advanced/configuration>		
@@ -36,6 +33,11 @@ module.exports = {
   }		
 };
 ```
+3. 修改utils里getWeb3.js的下面这句的端口号，使得该端口号和truffle.js中保持一致。否则npm run start执行完并修改storage为10之后，刷新网页后不会有变化。 
+```
+var provider = new Web3.providers.HttpProvider('http://127.0.0.1:8545') 
+```
+4. 在实在无法解决问题时，删除build目录，重新编译，重新migrate，有一定概率可以解决你碰到的问题。 
 
 ### 使用JS测试时如何在浏览器中输出相关信息以方便调试？
 * 可以使用console.log命令。比如要输入account变量的内容的话： 
@@ -43,23 +45,17 @@ module.exports = {
 console.log("employeeId: ",account);
 ```
 
-### truffle console中如何像remix界面里那样通过addFund来加钱？ 
+### truffle console中如何像remix界面里那样通过addFund来加钱，并且指定支付帐户？ 
 * 可以在调函数的时候在花括号里设置参数，比如：  
 ```
-payroll.addFund({value: xxxx})
-```
-
-### truffle console中如何像指定执行该命令的帐户？ 
-* 同上一问，也可以在调函数的时候在花括号里设置参数，比如：  
-```
-payroll.addFund({from: xxxx})
+payroll.addFund({from: accounts[0], value: 1});
 ```
 
 ### 用testrpc布署完合约之后，我如何才能知道合约的owner？ 
 * 部署合约默认使用account[0],所以owner可以通过在testrpc命令执行完后查看account[0]得知 
 
-### 如何自定义gasprice和gaslimit？ 
-* 可以执行如下命令来修改： 
+### 在truffle migration时出错：Error: exceeds block gas limit。如何自定义gasprice和gaslimit？ 
+* 在启动testrpc时自定义下gasprice  gaslimit，改大点。比如可以执行如下命令来修改： 
 ```
 testrpc -g 30000000000 -l 200000 
 ```
@@ -68,10 +64,13 @@ testrpc -g 30000000000 -l 200000
 > --gasLimit/-l <gas limit> (default 90000)
 
 ### 通过web3来调用solidity里面的方法都是需要添加回调函数吗？ 
-* 是的，需要用JS里的promise来获取实际的结果，比如： 
+* 是的，这个可以算是Node.js的特性之一，因为Node.js调用Solidity这些方法是异步的，所以需要设置回调函数，在调用完成后会触发回调函数进行后续操作。比如： 
 ```
 MetaCoin.deployed().then(contract => {metacoin = contract})
 ```
+
+### 为何在执地函数名.call()时状态变量未被修改？ 
+* 函数名.call()是本地执行，不会发送transaction到链上，并且只返回true/false。正确的方法是直接调用函数名()，这将返回一个交易信息。 
 
 ---
 上述问题整理自：
