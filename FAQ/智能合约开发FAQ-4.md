@@ -16,6 +16,13 @@
 
 http://mp.weixin.qq.com/s/lK9O0gEbDTJgcpyM3x2e9g 
 
+【墙裂建议：由于虚拟机较大，下载时间较长，需要提前下载好】
+
+1）国外同学/ 能翻墙同学戳👉 https://www.dropbox.com/s/bikdtta0ecw1l1r/juicebox-desktop-1.3.0%20Clone.ova?dl=0
+
+2）不能翻墙的同学戳👉 chinatechstory.com/juiceboxClone.ova
+
+
 ### 为何参考了如上问题以及视频中的步骤，还是无法跑通整个流程？
 * payroll.sol程序导入truffle工程时需要注意： 
 1. 注意如果使用视频中的编译器版本时，public view这样的语法不被支持，编译时会报错。解决方法可以是把view字样删除，或者改成constant。 
