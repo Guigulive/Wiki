@@ -4,6 +4,8 @@
 * 对于Truffle本身的学习，我们的虚拟机镜像已经帮大家配置好了truffle， testrpc，npm等等版本，所以安装truffle，testrpc，npm，nvm的步骤都可以省略，请大家可以直接试运行truffle init，来产生标准的和视频讲解一样的metacoin工程 
 * 对于react的前端整合部分，因为react box在视频录制之后更新，所以很多东西都有一些小的变化，为了方便大家，请用以下这些步骤运行那个simple storage的例子： 
 1. 下载官方虚拟机镜像（版本号：5.1.22）
+> 国外同学/ 能翻墙同学戳：https://www.dropbox.com/s/bikdtta0ecw1l1r/juicebox-desktop-1.3.0%20Clone.ova?dl=0
+> 不能翻墙的同学戳：chinatechstory.com/juiceboxClone.ova
 2. cp -r react-box payroll
 3. cd payroll
 4. npm install
