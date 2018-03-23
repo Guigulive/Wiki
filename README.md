@@ -22,6 +22,8 @@
 
 - [Ethereum的Merkle拓展](https://github.com/Guigulive/Wiki/wiki/Ethereum%E7%9A%84Merkle%E6%8B%93%E5%B1%95)
 
+- [Ethereum的合约ABI拓展](https://github.com/Guigulive/Wiki/wiki/Ethereum%E7%9A%84%E5%90%88%E7%BA%A6ABI%E6%8B%93%E5%B1%95)
+
 ## [每日优质内容复盘](daily-review/README.md)
 - [2018.3.22](daily-review/posts/3/2018.3.22.md)
 - [2018.3.21](daily-review/posts/3/2018.3.21.md)
