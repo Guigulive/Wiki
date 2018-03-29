@@ -13,6 +13,7 @@
 - [第二课常见问题](FAQ/智能合约开发FAQ-2.md)
 - [第三课常见问题](FAQ/智能合约开发FAQ-3.md)
 - [第四课常见问题](FAQ/智能合约开发FAQ-4.md)
+- [第五课常见问题](FAQ/智能合约开发FAQ-5.md)
 
 ## 课程补充学习笔记
 - [Lesson 1](https://github.com/Guigulive/Wiki/wiki/Lesson-1-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
@@ -27,6 +28,9 @@
 - [Ethereum的合约ABI拓展](https://github.com/Guigulive/Wiki/wiki/Ethereum%E7%9A%84%E5%90%88%E7%BA%A6ABI%E6%8B%93%E5%B1%95)
 
 ## [每日优质内容复盘](daily-review/README.md)
+- [2018.3.28](daily-review/posts/3/2018.3.28.md)
+- [2018.3.27](daily-review/posts/3/2018.3.27.md)
+- [2018.3.26](daily-review/posts/3/2018.3.26.md)
 - [2018.3.25](daily-review/posts/3/2018.3.25.md)
 - [2018.3.24](daily-review/posts/3/2018.3.24.md)
 - [2018.3.23](daily-review/posts/3/2018.3.23.md)
@@ -46,3 +50,4 @@
 ## 分享会复盘
 
 - [对Dfinity共识机制的简单介绍](weekly-seminar/2018.03.17-dfinity/2018.03.17-dfinity-consensus.md) - 题华龙
+- [AELF 白皮书解读](weekly-seminar/2018.03.24-aelf/2018.03.24-aelf.md) - 王鲁明
