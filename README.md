@@ -14,6 +14,8 @@
 - [第三课常见问题](FAQ/智能合约开发FAQ-3.md)
 - [第四课常见问题](FAQ/智能合约开发FAQ-4.md)
 - [第五课常见问题](FAQ/智能合约开发FAQ-5.md)
+- [第六课的问题](FAQ/智能合约开发FAQ-6.md)
+- [第七课和白帽黑客比赛的问题](FAQ/智能合约开发FAQ-7&Competition.md)
 
 ## 课程补充学习笔记
 - [Lesson 1](https://github.com/Guigulive/Wiki/wiki/Lesson-1-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
@@ -30,6 +32,7 @@
 - [ENS学习拓展](https://github.com/Guigulive/Wiki/wiki/ENS%E5%AD%A6%E4%B9%A0%E6%8B%93%E5%B1%95)
 
 ## [每日优质内容复盘](daily-review/README.md)
+- [2018.4.1](daily-review/posts/3/2018.4.1.md)
 - [2018.3.31](daily-review/posts/3/2018.3.31.md)
 - [2018.3.30](daily-review/posts/3/2018.3.30.md)
 - [2018.3.29](daily-review/posts/3/2018.3.29.md)
