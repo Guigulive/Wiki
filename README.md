@@ -56,3 +56,4 @@
 
 - [对Dfinity共识机制的简单介绍](weekly-seminar/2018.03.17-dfinity/2018.03.17-dfinity-consensus.md) - 题华龙
 - [AELF 白皮书解读](weekly-seminar/2018.03.24-aelf/2018.03.24-aelf.md) - 王鲁明
+- [IPFS](weekly-seminar/2018.03.30-ipfs/2018.03.30-ipfs.md) - 高冰
