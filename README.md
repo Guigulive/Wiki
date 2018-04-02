@@ -32,6 +32,7 @@
 - [ENS学习拓展](https://github.com/Guigulive/Wiki/wiki/ENS%E5%AD%A6%E4%B9%A0%E6%8B%93%E5%B1%95)
 
 ## [每日优质内容复盘](daily-review/README.md)
+- [2018.4.2](daily-review/posts/3/2018.4.2.md)
 - [2018.4.1](daily-review/posts/3/2018.4.1.md)
 - [2018.3.31](daily-review/posts/3/2018.3.31.md)
 - [2018.3.30](daily-review/posts/3/2018.3.30.md)
