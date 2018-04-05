@@ -22,6 +22,8 @@
 - [Lesson 2](https://github.com/Guigulive/Wiki/wiki/Lesson-2-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 - [Lesson 3](https://github.com/Guigulive/Wiki/wiki/Lesson-3-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 - [Lesson 4](https://github.com/Guigulive/Wiki/wiki/Lesson-4-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
+- [Lesson 5](https://github.com/Guigulive/Wiki/wiki/Lesson-5-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
+- [Lesson 6](https://github.com/Guigulive/Wiki/wiki/Lesson-6-%E8%A1%A5%E5%85%85%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0)
 
 ## 课程知识拓展
 
