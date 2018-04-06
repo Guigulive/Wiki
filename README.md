@@ -33,6 +33,8 @@
 
 - [ENS学习拓展](https://github.com/Guigulive/Wiki/wiki/ENS%E5%AD%A6%E4%B9%A0%E6%8B%93%E5%B1%95)
 
+- [Ethereum交易详解](https://github.com/Guigulive/Wiki/wiki/Ethereum%E4%BA%A4%E6%98%93%E8%AF%A6%E8%A7%A3)
+
 ## [每日优质内容复盘](daily-review/README.md)
 - [2018.4.6](daily-review/posts/3/2018.4.6.md)
 - [2018.4.5](daily-review/posts/3/2018.4.5.md)
